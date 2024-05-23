@@ -11,5 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "nodemon": "^3.1.0"
+  },
+  "nodemonConfig": {         //evitare che nodemon riavvii il server ogni volta che questo file viene modificato
+    "ignore": [
+      "norrisDb.json"
+    ]
   }
 }

@@ -10,11 +10,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^3.1.0"
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
   },
-  "nodemonConfig": {         //evitare che nodemon riavvii il server ogni volta che questo file viene modificato
+  "nodemonConfig": {
     "ignore": [
       "norrisDb.json"
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
